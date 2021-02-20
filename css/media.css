@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px){
+  .card{
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .card{
+    width: 85vw;
+  }
+
+  .bg-circle .bg-top {
+    top: -350px;
+    left: -300px;
+    width: 600px;
+  }
+
+  .bg-circle .bg-bottom {
+    bottom: -300px;
+    right: -400px;
+    width: 650px;
+  }
+}
